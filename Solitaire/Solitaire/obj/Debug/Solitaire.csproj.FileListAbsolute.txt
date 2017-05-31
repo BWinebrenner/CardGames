@@ -1,0 +1,6 @@
+C:\OOPD\Solitaire\Solitaire\bin\Debug\Solitaire.exe.config
+C:\OOPD\Solitaire\Solitaire\bin\Debug\Solitaire.exe
+C:\OOPD\Solitaire\Solitaire\bin\Debug\Solitaire.pdb
+C:\OOPD\Solitaire\Solitaire\obj\Debug\Solitaire.csprojResolveAssemblyReference.cache
+C:\OOPD\Solitaire\Solitaire\obj\Debug\Solitaire.exe
+C:\OOPD\Solitaire\Solitaire\obj\Debug\Solitaire.pdb
