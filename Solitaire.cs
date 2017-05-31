@@ -10,6 +10,11 @@ namespace Solitaire
     {
         static void Main(string[] args)
         {
+            Deck card = new Deck();
+            card.Shuffle(); 
+           
+
+
         }
 
         public void MakeBoard()
