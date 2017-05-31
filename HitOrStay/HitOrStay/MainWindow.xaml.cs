@@ -23,6 +23,7 @@ namespace HitOrStay
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void Hit_Click(object sender, RoutedEventArgs e)
@@ -35,4 +36,5 @@ namespace HitOrStay
 
         }
     }
+
 }
