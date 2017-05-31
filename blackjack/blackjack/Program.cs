@@ -10,7 +10,7 @@ namespace blackjack
     {
         public static void Main(string[] args)
         {
-
+            Driver();
         }
         public static void Hit()
         {
@@ -24,19 +24,9 @@ namespace blackjack
         {
 
         }
-        public static void Deal()
-        {
-
-        }
         public static void Driver()
         {
-            bool logic = true;
-            Hit();
-            Hit();
-            while (logic)
-            {
-                
-            }
+            
         }
     }
 }
