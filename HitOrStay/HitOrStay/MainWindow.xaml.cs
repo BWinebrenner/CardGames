@@ -31,6 +31,7 @@ namespace HitOrStay
 
         }
 
+
         private void Stay_Click(object sender, RoutedEventArgs e)
         {
 
