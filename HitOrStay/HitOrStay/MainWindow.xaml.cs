@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Deck1;
+using Card1;
+
 
 namespace HitOrStay
 {
@@ -20,15 +23,30 @@ namespace HitOrStay
     /// </summary>
     public partial class MainWindow : Window
     {
+        int f = 0;
         public MainWindow()
         {
             InitializeComponent();
-
+            
         }
 
         private void Hit_Click(object sender, RoutedEventArgs e)
         {
-
+            Label[] player = new Label[5];
+            player[0] = player1;
+            player[1] = player2;
+            player[2] = player3;
+            player[3] = player4;
+            player[4] = player5;
+            player[f].Content = BlackJackEngine.Hit();
+            if (f < 4)
+            {
+                f++;
+            }
+            else
+            {
+                f = 0;
+            }
         }
 
 
