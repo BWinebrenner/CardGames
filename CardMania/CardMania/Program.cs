@@ -32,15 +32,15 @@ namespace CardMania
                 string gameChoice = Console.ReadLine();
                 if (gameChoice == "1" || gameChoice == "BlackJack" || gameChoice == "blackjack")
                 {
-                    consBlackJack.WinLose();
+                    consBlackJack twentyone = new consBlackJack();
                 }
                 else if (gameChoice == "2" || gameChoice == "War" || gameChoice == "war")
                 {
-
+                    Console.WriteLine("coming soon");
                 }
                 else if (gameChoice == "3" || gameChoice == "Go Fish" || gameChoice == "go fish")
                 {
-
+                    Console.WriteLine("coming soon");
                 }
                 else if(gameChoice == "EXIT" || gameChoice == "Exit" || gameChoice == "exit")
                 {

@@ -20,7 +20,7 @@ namespace consoleblackjack
 
 
 
-        public static void WinLose()
+        public consBlackJack()
         {
             playerlogic();
             AIlogic();
