@@ -18,10 +18,7 @@ namespace consoleblackjack
         private static int arrayCount = 0;
         private static int aiarraycount = 0;
 
-        public static void Main(string[] args)
-        {
-            WinLose();
-        }
+
         public static void WinLose()
         {
             playerlogic();
