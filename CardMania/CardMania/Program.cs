@@ -14,6 +14,7 @@ namespace CardMania
     {
         public static void Main(string[] args)
         {
+            Driver();
         }
         public static void Driver()
         {
@@ -31,7 +32,7 @@ namespace CardMania
                 string gameChoice = Console.ReadLine();
                 if (gameChoice == "1" || gameChoice == "BlackJack" || gameChoice == "blackjack")
                 {
-
+                    consBlackJack.WinLose();
                 }
                 else if (gameChoice == "2" || gameChoice == "War" || gameChoice == "war")
                 {

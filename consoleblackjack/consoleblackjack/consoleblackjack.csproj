@@ -5,7 +5,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{4CF8E166-AE4E-4DCB-8D0E-B950A40F99CD}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <RootNamespace>consoleblackjack</RootNamespace>
     <AssemblyName>consoleblackjack</AssemblyName>
     <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
