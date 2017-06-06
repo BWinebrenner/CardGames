@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Card1;
 using Decks;
 using consoleblackjack;
+using WarCGOOP;
 
 
 namespace CardMania
@@ -32,11 +33,11 @@ namespace CardMania
                 string gameChoice = Console.ReadLine();
                 if (gameChoice == "1" || gameChoice == "BlackJack" || gameChoice == "blackjack")
                 {
-                    consBlackJack twentyone = new consBlackJack();
+                    consBlackJack.WinLose();
                 }
                 else if (gameChoice == "2" || gameChoice == "War" || gameChoice == "war")
                 {
-                    Console.WriteLine("coming soon");
+                    
                 }
                 else if (gameChoice == "3" || gameChoice == "Go Fish" || gameChoice == "go fish")
                 {
