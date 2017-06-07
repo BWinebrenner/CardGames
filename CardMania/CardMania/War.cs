@@ -303,17 +303,7 @@ namespace WarCGOOP
             }
         }
     }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            War w;
-            w = new War();
-            w.PlayGame();
 
-
-        }
-    }
 }
 
 

@@ -7,6 +7,7 @@ using Card1;
 using Decks;
 using consoleblackjack;
 using WarCGOOP;
+using GoFish;
 
 
 namespace CardMania
@@ -37,7 +38,9 @@ namespace CardMania
                 }
                 else if (gameChoice == "2" || gameChoice == "War" || gameChoice == "war")
                 {
-                    
+                    War w;
+                    w = new War();
+                    w.PlayGame();
                 }
                 else if (gameChoice == "3" || gameChoice == "Go Fish" || gameChoice == "go fish")
                 {
