@@ -1,0 +1,6 @@
+C:\FinalProject\CardGames\GoFish\GoFish\bin\Debug\GoFish.exe.config
+C:\FinalProject\CardGames\GoFish\GoFish\bin\Debug\GoFish.exe
+C:\FinalProject\CardGames\GoFish\GoFish\bin\Debug\GoFish.pdb
+C:\FinalProject\CardGames\GoFish\GoFish\obj\Debug\GoFish.csprojResolveAssemblyReference.cache
+C:\FinalProject\CardGames\GoFish\GoFish\obj\Debug\GoFish.exe
+C:\FinalProject\CardGames\GoFish\GoFish\obj\Debug\GoFish.pdb
